@@ -274,16 +274,17 @@ font-family: "Raleway", sans-serif;
 .features-list {
     display: flex;
     flex-wrap: wrap;    
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+    margin:  0;
+    padding: 120px 0;
 }
 
-.features-list .features-box {
-    flex-basis: calc((100% - 24px) / 4);
+.features-list .features-box {    
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 /* #endregion features */
-
+/* #region our-team */
 .our-team {    
         background-color: #f4f4fd;
 }
@@ -298,7 +299,9 @@ font-family: "Roboto", sans-serif;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;    
+    color: #2e2f42;   
+    padding-top: 120px;
+    margin: auto;
 }
 
 .our-team-hthree {
@@ -328,9 +331,30 @@ font-family: "Roboto", sans-serif;
 }
 
 .our-team-box {    
-            background: #fff;
+            background: #fff;       
+            justify-content: space-between;
 }
 
+
+
+.our-team .container {
+    display: flex;               
+    flex-direction: row;    
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+.our-team-list {
+    display: flex;
+    flex-wrap: wrap;  
+    margin: 0; 
+    justify-content: space-between;    
+}    
+
+.our-team-list .our-team-box {
+    flex-basis: calc((100% - 72px) / 4);
+}
+/* #endregion our-team */
+/* #region portfolio */
 .our-portfolio {
     background-color: #ffffff;
 }
@@ -346,6 +370,8 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        padding-top: 120px;
+        
 }
 
 .our-portfolio-hthree {
@@ -371,6 +397,24 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.our-portfolio .container {
+    display: flex;               
+    flex-direction: row;    
+    
+}
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.our-portfolio-list .our-portfolio-box {    
+    flex-basis: calc((100% - 96px) / 6);
+}
+/* #endregion portfolio */
 
 
 
@@ -401,3 +445,11 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
+.footer .container {
+    display: flex;               
+    flex-direction: column;    
+    padding: 100px 0;
+    padding-left: 156px;
+    align-items: flex-start;
+}
+    
