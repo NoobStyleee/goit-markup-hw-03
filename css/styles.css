@@ -287,6 +287,7 @@ font-family: "Raleway", sans-serif;
 /* #region our-team */
 .our-team {    
         background-color: #f4f4fd;
+        padding: 120px 0 120px;
 }
 
 .our-team-htwo {
@@ -300,8 +301,7 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;   
-    padding-top: 120px;
-    margin: auto;
+    margin-bottom: 72px;
 }
 
 .our-team-hthree {
@@ -315,6 +315,7 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .our-team-p {
@@ -333,15 +334,19 @@ font-family: "Roboto", sans-serif;
 .our-team-box {    
             background: #fff;       
             justify-content: space-between;
+            flex-basis: calc((100% - 72px) / 4);
+            border-radius: 0 0 4px 4px;                
 }
 
+.our-team-text-box {
+    padding: 32px 0px 32px;
+}
 
 
 .our-team .container {
     display: flex;               
     flex-direction: row;    
-    padding-top: 72px;
-    padding-bottom: 120px;
+    
 }
 .our-team-list {
     display: flex;
@@ -350,9 +355,7 @@ font-family: "Roboto", sans-serif;
     justify-content: space-between;    
 }    
 
-.our-team-list .our-team-box {
-    flex-basis: calc((100% - 72px) / 4);
-}
+
 /* #endregion our-team */
 /* #region portfolio */
 .our-portfolio {
