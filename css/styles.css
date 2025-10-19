@@ -465,8 +465,18 @@ font-family: "Roboto", sans-serif;
     align-items: flex-start;
 }
 
-.footer .webstudio-logo-header {
+.webstudio-logo-footer {
 display: inline-block;
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    /* line-height: 21px; */
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 margin-bottom: 16px;
 }
     /* #endregion footer */
