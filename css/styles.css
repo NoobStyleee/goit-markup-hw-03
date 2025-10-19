@@ -42,6 +42,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .studio-text-header {
@@ -130,43 +131,39 @@ font-family: "Raleway", sans-serif;
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;    
 }
 
 .header .container {
     display: flex;
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px 0 15px;
+}
+.nav {
+    display: flex;
+    align-items: center;
 }
 
-.container {    
-        
-        padding: 24px   156px;    
-        align-items: center;     
-        justify-content: space-between;
-}
+
 
 
 
 .navigation {
     display: flex;
-}
-
-.navigation .header-nav {
-    display: block;
-        padding: 24px 40px;
-        text-decoration: none;
-        font-size: 16px;
-        text-transform: capitalize;
-}
-
-
-.address  {
-    margin-left: auto; 
-}
-
-.address ul {
-    display: flex;
     gap: 40px;
+}
+
+.header-nav {
+    padding: 24px 0 24px;
+}
+
+
+
+
+.mail-and-tel-list {
+    display: flex;
+    margin-right: 40px;
 }
 
 /* #endregion header */
@@ -427,13 +424,14 @@ font-family: "Roboto", sans-serif;
     row-gap: 48px;
 }
 .our-portfolio-box {    
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 /* #endregion portfolio */
 
 /* #region footer */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
 .studio-text-footer {
@@ -465,5 +463,10 @@ font-family: "Roboto", sans-serif;
     padding: 100px 0;
     padding-left: 156px;
     align-items: flex-start;
+}
+
+.footer .webstudio-logo-header {
+display: inline-block;
+margin-bottom: 16px;
 }
     /* #endregion footer */
